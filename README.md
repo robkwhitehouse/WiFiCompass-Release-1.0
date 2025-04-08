@@ -3,11 +3,11 @@
 Transmit a compass heading over WiFi in NMEA 0183 format. 
 
 An Arduino C++ project.
-Code runs on an ESP32 with the arduino core. Hooked up to a CMPS-14 compass module. 
+Code runs on an ESP32 with the arduino core. Hooked up to a CMPS-14 compass module over I2C. 
 
 Uses RTOS tasks 
 
-There are any comments in the C++ code explaining how it works
+There are many comments in the C++ code explaining how it works
 
 This is the first production version. Released April 2025.
 Repository also includes webserver code for calibration of the CMPS-14. Including a single page web app (HTML and javasctipt)
